@@ -9,6 +9,14 @@
   width: 100%;
   position: sticky;
 }
+.nav a:hover
+{
+    
+    border-radius: 35px;
+    padding: 3px 10px;
+    background-color:#02384c;
+    transition: 0.2s;
+}
 body {
   background-color: #648696;
 }
