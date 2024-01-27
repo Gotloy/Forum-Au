@@ -39,8 +39,8 @@ ul a {
   color: white;
 }
 .container1 {
-  width: 500px;
-  height: 150px;
+  width: 450px;
+  height: 180px;
   background-color: #012735;
   display: flex;
   margin: 50px 50px;
@@ -54,20 +54,36 @@ ul a {
     color: white;
     display: flex;
 }
-.roop1 h1
+.head1
 {
-  margin-left: 30px; 
+  background-color: gray;
+  margin-left: 20px; 
+  border-radius: 30px;
+  height: 30px;
+  width: 200px;
+}
+.text1 h1
+{
+  padding: 3px;
+  color: black;
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.5rem;
+}
+.text1 ul
+{
+  display: grid;
 }
 .roop1 img
 {
-  height: 110px;
-  width: 140px ;
-  border-radius: 10px;
+  height: 120px;
+  width: 150px ;
+  border-radius: 20px;
 }
 .container2 {
     
-    width: 500px;
-    height: 150px;
+    width: 450px;
+    height: 180px;
     background-color: #012735;
     display: flex;
     margin: -40px 50px;
@@ -79,8 +95,8 @@ ul a {
 }
 .container3 {
     
-    width: 500px;
-    height: 150px;
+    width: 450px;
+    height: 180px;
     background-color: #012735;
     display: flex;
     margin: 50px 50px;
