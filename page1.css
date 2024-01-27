@@ -56,9 +56,11 @@ ul a {
   padding-left: 20px;
   align-items: center;
 }
-.roop1 {
+.roop1
+ {
   color: white;
   display: flex;
+  
 }
 .head1 {
   background-color: gray;
@@ -109,14 +111,19 @@ ul a {
 
 .click1 li
 {
-  background: gray;
-  border: 1px solid white;
+  background: rgb(203, 239, 243);
+  border: 1px solid black;
   margin-bottom:10px ;
   border-radius: 15px;
   height: 35px;
 }
 .click1 li a
 {
+  color: black;
+  
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
   display: flex;
   justify-content: center;
 }
