@@ -1,16 +1,13 @@
-let input1=document.getElementById('Input-1')
-let compute1=document.getElementById('compute-1')
-let output=document.getElementById('output1')
+let input= document.getElementById('input1')
+let run = document.getElementById('run1')
+let output = document.getElementById('output1')
 
 function printHumidity()
 {
-    let  number = Number(input1.value);
-    let outputHtml = '';
-    outputHtml +='<p>';
-    outputHtml += number;
-    outputHtml +='</p>';
-
-    output1.innerHTML = outputHtml;
+    let number= Number(input.value);
+    let Humidity= -230.673+683.328*number-448.630*(number**2)
+    console.log(Humidity)
+    output.innerHTML= Humidity
 }
+run.addEventListener('click', printHumidity);
 
-compute1.addEventListener('click', printHumidity);
